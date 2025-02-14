@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: FinanceApplication
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: test@1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8081
+logging:
+  level:
+    org:
+      springframework:
+        web: TRACE
+    root: INFO
+    com.ojasare.songapp: TRACE
+  file:
+    name: logs/finance-app.log
