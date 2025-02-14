@@ -86,3 +86,161 @@
 2025-02-14T11:56:37.051Z  INFO 11612 --- [FinanceApplication] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-02-14T11:56:37.053Z  INFO 11612 --- [FinanceApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-02-14T11:56:37.056Z  INFO 11612 --- [FinanceApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-14T14:24:36.835Z  INFO 37348 --- [FinanceApplication] [main] com.ojasare.FinanceApplication           : Starting FinanceApplication using Java 21.0.4 with PID 37348 (C:\Users\PRILLIX\IdeaProjects\FinanceApplication\target\classes started by PRILLIX in C:\Users\PRILLIX\IdeaProjects\FinanceApplication)
+2025-02-14T14:24:36.837Z DEBUG 37348 --- [FinanceApplication] [main] com.ojasare.FinanceApplication           : Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-14T14:24:36.838Z  INFO 37348 --- [FinanceApplication] [main] com.ojasare.FinanceApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T14:24:37.396Z  INFO 37348 --- [FinanceApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T14:24:37.411Z  INFO 37348 --- [FinanceApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2025-02-14T14:24:37.872Z  INFO 37348 --- [FinanceApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-14T14:24:37.883Z  INFO 37348 --- [FinanceApplication] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-14T14:24:37.884Z  INFO 37348 --- [FinanceApplication] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-14T14:24:37.926Z  INFO 37348 --- [FinanceApplication] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-14T14:24:37.927Z  INFO 37348 --- [FinanceApplication] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1051 ms
+2025-02-14T14:24:38.037Z  INFO 37348 --- [FinanceApplication] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-14T14:24:38.091Z  INFO 37348 --- [FinanceApplication] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-14T14:24:38.128Z  INFO 37348 --- [FinanceApplication] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-14T14:24:38.341Z  INFO 37348 --- [FinanceApplication] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T14:24:38.364Z  INFO 37348 --- [FinanceApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-14T14:24:38.497Z  INFO 37348 --- [FinanceApplication] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@246de37e
+2025-02-14T14:24:38.498Z  INFO 37348 --- [FinanceApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-14T14:24:38.531Z  WARN 37348 --- [FinanceApplication] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-14T14:24:38.549Z  INFO 37348 --- [FinanceApplication] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-14T14:24:38.857Z  INFO 37348 --- [FinanceApplication] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-14T14:24:38.868Z  INFO 37348 --- [FinanceApplication] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T14:24:39.065Z  WARN 37348 --- [FinanceApplication] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T14:24:39.325Z TRACE 37348 --- [FinanceApplication] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-14T14:24:39.335Z DEBUG 37348 --- [FinanceApplication] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-02-14T14:24:39.348Z DEBUG 37348 --- [FinanceApplication] [main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2025-02-14T14:24:39.483Z TRACE 37348 --- [FinanceApplication] [main] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2025-02-14T14:24:39.513Z TRACE 37348 --- [FinanceApplication] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-02-14T14:24:39.514Z TRACE 37348 --- [FinanceApplication] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-02-14T14:24:39.515Z DEBUG 37348 --- [FinanceApplication] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-14T14:24:39.607Z DEBUG 37348 --- [FinanceApplication] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-14T14:24:39.745Z DEBUG 37348 --- [FinanceApplication] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-14T14:24:40.385Z  INFO 37348 --- [FinanceApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-02-14T14:24:40.406Z  INFO 37348 --- [FinanceApplication] [main] com.ojasare.FinanceApplication           : Started FinanceApplication in 4.0 seconds (process running for 4.594)
+2025-02-14T14:25:56.253Z  INFO 37348 --- [FinanceApplication] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-14T14:25:56.265Z  INFO 37348 --- [FinanceApplication] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-14T14:25:56.474Z  INFO 37348 --- [FinanceApplication] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T14:25:56.477Z  INFO 37348 --- [FinanceApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-14T14:25:56.482Z  INFO 37348 --- [FinanceApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-14T16:04:35.216Z  INFO 28496 --- [FinanceApplication] [main] com.ojasare.FinanceApplication           : Starting FinanceApplication using Java 21.0.4 with PID 28496 (C:\Users\PRILLIX\IdeaProjects\FinanceApplication\target\classes started by PRILLIX in C:\Users\PRILLIX\IdeaProjects\FinanceApplication)
+2025-02-14T16:04:35.217Z DEBUG 28496 --- [FinanceApplication] [main] com.ojasare.FinanceApplication           : Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-14T16:04:35.218Z  INFO 28496 --- [FinanceApplication] [main] com.ojasare.FinanceApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T16:04:35.651Z  INFO 28496 --- [FinanceApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T16:04:35.736Z  INFO 28496 --- [FinanceApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interface.
+2025-02-14T16:04:36.066Z  INFO 28496 --- [FinanceApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-14T16:04:36.075Z  INFO 28496 --- [FinanceApplication] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-14T16:04:36.075Z  INFO 28496 --- [FinanceApplication] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-14T16:04:36.107Z  INFO 28496 --- [FinanceApplication] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-14T16:04:36.108Z  INFO 28496 --- [FinanceApplication] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 858 ms
+2025-02-14T16:04:36.194Z  INFO 28496 --- [FinanceApplication] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-14T16:04:36.225Z  INFO 28496 --- [FinanceApplication] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-14T16:04:36.242Z  INFO 28496 --- [FinanceApplication] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-14T16:04:36.417Z  INFO 28496 --- [FinanceApplication] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T16:04:36.434Z  INFO 28496 --- [FinanceApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-14T16:04:36.555Z  INFO 28496 --- [FinanceApplication] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@636fccb0
+2025-02-14T16:04:36.556Z  INFO 28496 --- [FinanceApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-14T16:04:36.581Z  WARN 28496 --- [FinanceApplication] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-14T16:04:36.594Z  INFO 28496 --- [FinanceApplication] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-14T16:04:36.804Z  INFO 28496 --- [FinanceApplication] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-14T16:04:36.807Z  INFO 28496 --- [FinanceApplication] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T16:04:36.911Z  WARN 28496 --- [FinanceApplication] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentController' defined in file [C:\Users\PRILLIX\IdeaProjects\FinanceApplication\target\classes\com\ojasare\controller\PaymentController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'paymentService' defined in file [C:\Users\PRILLIX\IdeaProjects\FinanceApplication\target\classes\com\ojasare\service\PaymentService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'financialTransactionRepository' defined in com.ojasare.repository.FinancialTransactionRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.ojasare.entity.FinancialTransaction
+2025-02-14T16:04:36.911Z  INFO 28496 --- [FinanceApplication] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T16:04:36.913Z  INFO 28496 --- [FinanceApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-14T16:04:36.956Z  INFO 28496 --- [FinanceApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-14T16:04:36.958Z  INFO 28496 --- [FinanceApplication] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-14T16:04:36.965Z  INFO 28496 --- [FinanceApplication] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-14T16:04:36.979Z ERROR 28496 --- [FinanceApplication] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentController' defined in file [C:\Users\PRILLIX\IdeaProjects\FinanceApplication\target\classes\com\ojasare\controller\PaymentController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'paymentService' defined in file [C:\Users\PRILLIX\IdeaProjects\FinanceApplication\target\classes\com\ojasare\service\PaymentService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'financialTransactionRepository' defined in com.ojasare.repository.FinancialTransactionRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.ojasare.entity.FinancialTransaction
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1381) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.2.jar:3.4.2]
+	at com.ojasare.FinanceApplication.main(FinanceApplication.java:10) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentService' defined in file [C:\Users\PRILLIX\IdeaProjects\FinanceApplication\target\classes\com\ojasare\service\PaymentService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'financialTransactionRepository' defined in com.ojasare.repository.FinancialTransactionRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.ojasare.entity.FinancialTransaction
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1381) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1573) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1519) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.2.jar:6.2.2]
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'financialTransactionRepository' defined in com.ojasare.repository.FinancialTransactionRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.ojasare.entity.FinancialTransaction
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1812) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1573) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1519) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.2.jar:6.2.2]
+	... 34 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.ojasare.entity.FinancialTransaction
+	at org.hibernate.metamodel.model.domain.internal.JpaMetamodelImpl.managedType(JpaMetamodelImpl.java:223) ~[hibernate-core-6.6.5.Final.jar:6.6.5.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:470) ~[hibernate-core-6.6.5.Final.jar:6.6.5.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:100) ~[hibernate-core-6.6.5.Final.jar:6.6.5.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:82) ~[spring-data-jpa-3.4.2.jar:3.4.2]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:69) ~[spring-data-jpa-3.4.2.jar:3.4.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:251) ~[spring-data-jpa-3.4.2.jar:3.4.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:215) ~[spring-data-jpa-3.4.2.jar:3.4.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:198) ~[spring-data-jpa-3.4.2.jar:3.4.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:1) ~[spring-data-jpa-3.4.2.jar:3.4.2]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:386) ~[spring-data-commons-3.4.2.jar:3.4.2]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$4(RepositoryFactoryBeanSupport.java:350) ~[spring-data-commons-3.4.2.jar:3.4.2]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135) ~[spring-data-commons-3.4.2.jar:3.4.2]
+	at org.springframework.data.util.Lazy.get(Lazy.java:113) ~[spring-data-commons-3.4.2.jar:3.4.2]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:356) ~[spring-data-commons-3.4.2.jar:3.4.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132) ~[spring-data-jpa-3.4.2.jar:3.4.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808) ~[spring-beans-6.2.2.jar:6.2.2]
+	... 44 common frames omitted
+
